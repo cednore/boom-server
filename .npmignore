@@ -1,0 +1,21 @@
+# Logs
+npm-debug.log
+yarn-error.log
+*.log
+
+# Dotenv file
+.env
+
+# Typescript config and source files
+/tsconfig.json
+/src
+
+# CLI helper
+/boom-server.cmd
+
+# boom-server configuration and lock file
+/boom-server.config.json
+/boom-server.config.lock
+
+# Packed tarballs
+/boom-server*.tgz
