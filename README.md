@@ -9,6 +9,10 @@
 [`socket.io`](https://socket.io/) clients. To control `boom-server` from Laravel API, you should install
 [`boom-controller`](https://packagist.org/packages/cednore/boom-controller).
 
+See [`boom-demo`](https://github.com/cednore/boom-demo) for example usage of this project.
+
+> Currently, this project supports only `socket.io:^2.2.0`, `laravel:^5.7|^6.0` and `php:^7|^8`.
+
 ## Installation
 
 It is recommended to install `boom-server` as a global npm package.
@@ -170,6 +174,20 @@ npm run start    # start the server
 npm run stop     # stop the server
 npm run restart  # restart the server
 ```
+
+## Project roadmaps
+
+1. Testing desperately needed ;-)
+2. Resourceful documentation; Changelog, contribution guide, issue/PR templates, GitHub releases, dedicated
+   documentation website
+3. CI/CD pipelines for building, testing and publishing
+4. Support higher `socket.io` and `laravel` versions
+5. More smooth controller syntax
+6. Detailed error handling
+7. Memcached driver
+8. More stable db connection
+9. Dockerization of microservice
+10. Combine `boom-server` and `boom-controller` in a single monorepo
 
 ## License
 
