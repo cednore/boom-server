@@ -7,7 +7,7 @@
 
 `boom-server` is a simple microservice for [Laravel](https://laravel.com) applications to emit/listen events to/from
 [`socket.io`](https://socket.io/) clients. To control `boom-server` from Laravel API, you should install
-[`boom-controller`](https://packagist.org/packages/cednore/boom-controller).
+[`cednore/boom-controller`](https://packagist.org/packages/cednore/boom-controller).
 
 See [`boom-demo`](https://github.com/cednore/boom-demo) for example usage of this project.
 
