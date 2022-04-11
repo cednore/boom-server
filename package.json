@@ -1,7 +1,7 @@
 {
   "name": "boom-server",
   "version": "1.0.0",
-  "description": "Proxy server between Laravel API and socket.io clients`",
+  "description": "Proxy server between Laravel API and socket.io clients",
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
