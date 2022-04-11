@@ -462,7 +462,7 @@ function register(name, cmd) {
             //
         };
     } else {
-        Log.warning('CLI::', `Namespace ${name}.green already exists.`);
+        Log.warning('CLI::', `Namespace ${name.green} already exists.`);
         // TODO: To overwrite nsp options or to exit
         return;
     }
