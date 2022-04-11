@@ -7,6 +7,7 @@ const inquirer = require('inquirer');
 const _ = require('lodash');
 const slug = require('slug');
 
+const package = require('./package.json');
 const { Log } = require('./lib/log');
 
 // Load boom-server instance
@@ -18,7 +19,9 @@ const server = require('./lib');
 process.env.DEVMODE = 'true';
 
 // Initialize version and usage
-program.version(require('./package.json').version)
+program.name(package.name)
+    .version(package.version)
+    .description(package.description)
     .usage('<command> [options]');
 
 // Add start command
@@ -102,6 +105,9 @@ program.on('command:*', function() {
 
 // Start parsing
 program.parse(process.argv);
+if (program.args.length === 0) {
+    program.help();
+}
 
 
 /**
