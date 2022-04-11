@@ -180,14 +180,15 @@ npm run restart  # restart the server
 1. Testing desperately needed ;-)
 2. Resourceful documentation; Changelog, contribution guide, issue/PR templates, GitHub releases, dedicated
    documentation website
-3. CI/CD pipelines for building, testing and publishing
-4. Support higher `socket.io` and `laravel` versions
-5. More smooth controller syntax
-6. Detailed error handling
-7. Memcached driver
-8. More stable db connection
-9. Dockerization of microservice
-10. Combine `boom-server` and `boom-controller` in a single monorepo
+3. Version compatibility check between `boom-controller` and `boom-server`
+4. CI/CD pipelines for building, testing and publishing
+5. Support higher `socket.io` and `laravel` versions
+6. More smooth controller syntax
+7. Detailed error handling
+8. Memcached driver
+9. More stable db connection
+10. Dockerization of microservice
+11. Combine `boom-server` and `boom-controller` in a single monorepo
 
 ## License
 
