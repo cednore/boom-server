@@ -64,7 +64,6 @@ program.command('init [file]')
         console.log('Examples:');
         console.log('  $ boom-server init');
         console.log('  $ boom-server init server.json');
-        console.log('  $ boom-server init server.json');
     });
 
 // Add nsp:register command
