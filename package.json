@@ -5,7 +5,6 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node cli.js start",
     "stop": "node cli.js stop",
     "restart": "node cli.js start --force",
